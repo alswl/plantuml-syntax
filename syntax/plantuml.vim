@@ -26,7 +26,7 @@ syntax keyword plantumlTypeKeyword abstract actor agent archimate artifact bound
 syntax keyword plantumlTypeKeyword database diamond entity enum file folder frame node object package participant
 syntax keyword plantumlTypeKeyword queue rectangle stack state storage usecase
 " class and interface are defined as plantumlClassKeyword
-syntax keyword plantumlClassKeyword class interface
+syntax keyword plantumlClassKeyword class interface table
 
 " keyword
 " Exclude 'top to bottom direction'
