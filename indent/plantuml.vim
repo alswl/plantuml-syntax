@@ -75,7 +75,7 @@ endfunction
 function! s:getIncIndent() abort
   " Function to determine the s:incIndent pattern
   return
-        \ '^\s*\%(class\|object\|interface\|partition\|rectangle\|enum\|namespace\|table\)\>.*{\s*$\|' .
+        \ '^\s*\%(class\|object\|interface\|partition\|rectangle\|enum\|namespace\|table\|package\)\>.*{\s*$\|' .
         \ '^\s*\%(loop\|alt\|opt\|group\|critical\|else\|legend\|box\|if\|while\|fork\|split\)\>\|' .
         \ '^\s*ref\>[^:]*$\|' .
         \ '^\s*[hr]\?note\>\%(\%("[^"]*" \<as\>\)\@![^:]\)*$\|' .
